@@ -1,0 +1,54 @@
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.add {
+  min-width: 50%;
+  margin-left: max(5vw, 25px);
+  color: var(--titleColor);
+}
+.add form {
+  gap: 20px;
+}
+.add .add-img-upload {
+  max-width: 150px;
+}
+.add .add-img-upload img {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add input,
+.add textarea,
+.add select {
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid var(--subtitleColor);
+}
+.add .add-category-price-rating {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.add .add-category,
+.add .add-price,
+.add .add-rating {
+  flex-grow: 1;
+}
+.add .add-btn {
+  background-color: var(--mainColor);
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.5s;
+}
+.add .add-btn:hover {
+  background-color: #ff4d2d;
+  transform: scale(1.05);
+}

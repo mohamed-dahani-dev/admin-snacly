@@ -1,0 +1,85 @@
+/* 
+==================
+table of contents
+==================
+1- navbar
+*/
+
+/* 
+==================
+1- navbar
+==================
+*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 10px 0;
+}
+.navbar .logo {
+  font-size: 40px;
+  color: var(--mainColor);
+}
+.navbar .mode {
+  background-color: transparent;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--subtitleColor);
+  border: 1.5px solid var(--mainColor);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.light .navbar .mode {
+  box-shadow: 1px 1px 20px #2323242a;
+}
+.light .navbar .mode .icon-sunny {
+  color: #ffa500;
+}
+
+.icon-user {
+  position: relative;
+  font-size: 30px;
+  color: var(--titleColor);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.icon-user:hover {
+  color: var(--mainColor);
+}
+.admin-panel {
+  color: var(--titleColor);
+}
+
+.logout {
+  position: absolute;
+  background-color: var(--mainColor);
+  color: #fff;
+  display: none;
+  z-index: 1;
+  border-radius: 10px;
+  padding: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icon-user:hover .logout {
+  display: block;
+}
+
+.logout li {
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.logout li:hover {
+  border-radius: 5px;
+  background-color: #fff;
+  color: var(--mainColor);
+}

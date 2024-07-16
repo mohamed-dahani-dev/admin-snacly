@@ -1,0 +1,50 @@
+.admin-login form {
+  width: 60%;
+  margin: 4rem auto 0 auto;
+  background-color: var(--secondary);
+  color: var(--titleColor);
+  border-radius: 1rem;
+  padding: 1rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.admin-login-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.admin-login-title h2 {
+  color: var(--mainColor);
+  font-size: 40px;
+}
+.admin-login input {
+  padding: 10px 20px;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1.5px solid var(--mainColor);
+  outline: none;
+  font-size: 16px;
+}
+.admin-login button {
+  background-color: var(--mainColor);
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  border-radius: 5px;
+}
+.admin-login button:hover {
+  background-color: #ff4d2d;
+}
+
+@media screen and (max-width: 800px) {
+  .admin-login form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .admin-login form {
+    width: 90%;
+  }
+}
