@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 const Home = ({ setLogin, setToken }) => {
   // the url of backend
-  const url = "http://localhost:3000";
+  const url = "https://backend-snacly.onrender.com";
 
   // scroll button
   useEffect(() => {
