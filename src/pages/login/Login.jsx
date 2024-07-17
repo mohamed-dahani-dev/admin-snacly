@@ -8,7 +8,7 @@ import * as Yub from "yup";
 
 const Login = ({ setLogin }) => {
   // url of server backend
-  const url = "http://localhost:3000";
+  const url = "https://backend-snacly.onrender.com";
 
   const [data, setData] = useState({
     email: "",
